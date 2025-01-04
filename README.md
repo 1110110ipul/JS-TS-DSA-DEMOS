@@ -9,8 +9,10 @@ We have created separate **JS** and **TS** folders to write demo functions in bo
 - To run the **JavaScript** code, use:  
   ```bash
   node foldername.js
+  bun foldername.js
+  deno foldername.js
 
 - To run the **TypeScript** code, use:  
   ```bash
-  bun foldername.js
-
+  bun foldername.ts
+  deno foldername.ts
