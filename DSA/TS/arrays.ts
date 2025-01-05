@@ -13,5 +13,20 @@ function transformArray(arr : number[]) : number {
 
 // Test the function
 const numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const result: number = transformArray(numbers);
-console.log(`Array: [${numbers}], Result: ${result}`); // result should be 165
+// const result: number = transformArray(numbers);
+// console.log(`Array: [${numbers}], Result: ${result}`); // result should be 165
+
+// day 2
+
+// Problem Statement
+// Given an array of integers, return a new array with only the unique elements, removing any duplicates.
+
+function removeDuplicates(arr: number[]): number[] {
+    return [...new Set(arr)];
+  }  
+
+// Test case
+const inputArray: number[] = [1, 2, 2, 3, 4, 4, 5];
+const result: number[] = removeDuplicates(inputArray);
+
+console.log(result); // Output: [1, 2, 3, 4, 5]
